@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7045289c944293447ae10c3a832c2b3b, type: 3}
+  m_Name: WeaponDetails_Revolver
+  m_EditorClassIdentifier: 
+  weaponName: Revolver
+  weaponSprite: {fileID: 21300000, guid: 29bc0107bc11191468ed7d175994fb5b, type: 3}
+  weaponShootPosition: {x: 1.15, y: 0.329, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 646370a45e7b39b4988a22a6ee35fb2e, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: adcb249d1b4b2c04d8695b6e52946787, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 9df8285c1c727c142be207fe7b8f4bee, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: f8a3a19a4c418ab4a9933319e825ade5, type: 2}
+  hasInfiniteAmmo: 0
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 6
+  weaponAmmoCapacity: 40
+  weaponFireRate: 0.3
+  weaponPrechargeTime: 0
+  weaponReloadTime: 1.8

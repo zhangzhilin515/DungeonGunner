@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_MediumRoom_1
+  m_EditorClassIdentifier: 
+  guid: 71ef90c471d9a5a408e1841b88961b58
+  prefab: {fileID: 2063347442914277439, guid: c62c29466fff3eb4faa52978d3bbb471, type: 3}
+  previousPrefab: {fileID: 2063347442914277439, guid: c62c29466fff3eb4faa52978d3bbb471, type: 3}
+  roomNodeType: {fileID: 11400000, guid: 151b8a20bebe2e047b9fa4f2e545f40b, type: 2}
+  lowerBounds: {x: -11, y: -1}
+  upperBounds: {x: 42, y: 54}
+  doorwayList:
+  - position: {x: 2, y: 54}
+    orientation: 0
+    doorPrefab: {fileID: 99384065817862818, guid: 42173f0f9a38b934a9c8953081ac8093, type: 3}
+    doorwayStartCopyPosition: {x: -1, y: 54}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 9
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 42, y: 39}
+    orientation: 1
+    doorPrefab: {fileID: 8133981522514828576, guid: 53bcc969f50aa184e9cffc1da59f971c, type: 3}
+    doorwayStartCopyPosition: {x: 37, y: 45}
+    doorwayCopyTileWidth: 6
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -11, y: 11}
+    orientation: 3
+    doorPrefab: {fileID: 8133981522514828576, guid: 53bcc969f50aa184e9cffc1da59f971c, type: 3}
+    doorwayStartCopyPosition: {x: -11, y: 17}
+    doorwayCopyTileWidth: 6
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 29, y: -1}
+    orientation: 2
+    doorPrefab: {fileID: 99384065817862818, guid: 42173f0f9a38b934a9c8953081ac8093, type: 3}
+    doorwayStartCopyPosition: {x: 26, y: 3}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 6
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -2, y: 11}
+  - {x: 6, y: 11}
+  - {x: 25, y: 11}
+  - {x: 33, y: 11}
+  - {x: -2, y: 39}
+  - {x: 6, y: 39}
+  - {x: 25, y: 39}
+  - {x: 33, y: 39}
